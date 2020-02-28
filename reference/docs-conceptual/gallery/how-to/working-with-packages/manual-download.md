@@ -56,7 +56,7 @@ The steps are as follows:
 3. Rename the folder. The default folder name is usually `<name>.<version>`. The version can
    include `-prerelease` if the module is tagged as a prerelease version. Rename the folder to just
    the module name. For example, `azurerm.storage.5.0.4-preview` becomes `azurerm.storage`.
-4. Copy the folder to one of the folders in the `$env:PSModulePath value`. `$env:PSModulePath` is a
+4. Copy the folder to one of the folders in the `$env:PSModulePath` value. `$env:PSModulePath` is a
    semicolon-delimited set of paths in which PowerShell should look for modules.
 
 > [!IMPORTANT]
