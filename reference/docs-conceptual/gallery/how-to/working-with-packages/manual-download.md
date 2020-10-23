@@ -53,7 +53,7 @@ The steps are as follows:
 
 1. Unblock the Internet-downloaded NuGet package (`.nupkg`) file, for example using `Unblock-File -Path C:\Downloads\module.nupkg` cmdlet.
 2. Extract the contents of the NuGet package to a local folder.
-2. Delete the NuGet-specific elements from the folder.
+2. Delete the NuGet-specific elements from the folder (folders: "_rels" and "package". And Files: "[Content_Types].xml" and "<name>.nuspec")
 3. Rename the folder. The default folder name is usually `<name>.<version>`. The version can
    include `-prerelease` if the module is tagged as a prerelease version. Rename the folder to just
    the module name. For example, `azurerm.storage.5.0.4-preview` becomes `azurerm.storage`.
